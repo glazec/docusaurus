@@ -4,9 +4,9 @@ module.exports = {
     defaultLocale: 'zh',
     locales: ['zh', 'en'],
   },
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'un.Block',
+  tagline: 'Help you step into Blockchain',
+  url: 'https:/unblock256.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -15,7 +15,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'un.Block',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -23,14 +23,14 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'cowSwap',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Projects',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: 'NewsLetter', position: 'left' },
         { type: 'localeDropdown', position: 'right' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/un-Block',
           label: 'GitHub',
           position: 'right',
         },
@@ -43,8 +43,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Project',
+              to: '/docs/cowSwap',
             },
           ],
         },
@@ -74,7 +74,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/un-Block',
             },
           ],
         },
@@ -90,7 +90,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/glazec/docusaurus/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -98,7 +98,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/glazec/docusaurus/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

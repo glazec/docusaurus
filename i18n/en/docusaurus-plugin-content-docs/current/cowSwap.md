@@ -4,18 +4,22 @@
 
 English
 
-### ⚙️ 使用流程
+### ⚙️ How to use
 
 English English
 
-## 🔨 原理
+## 🔨 How it works
 
 Here is English passage
 
-### 💠 去中心化
+### 💠 Decentralization
 
-### 📔 相关阅读
+### 📔 Related Reading
 
 [GPV2 road to decentralization](https://forum.gnosis.io/t/gpv2-road-to-decentralization/1245)
 
 [Introducing Gnosis Protocol V2 and Balancer-Gnosis-Protocol](https://blog.gnosis.pm/introducing-gnosis-protocol-v2-and-balancer-gnosis-protocol-f693b2938ae4)
+
+import Coin from '../../../../src/components/coin'
+
+<Coin />

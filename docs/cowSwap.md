@@ -10,13 +10,9 @@
 
 需要注意的时目前 CowSwap 是 **Alpha** 阶段，CowSwap 提供了 **90%** 的 Gas Fee 补贴和 **0** 协议费用。
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be7a741a-ff12-4c78-8d12-20c7a72795b7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be7a741a-ff12-4c78-8d12-20c7a72795b7/Untitled.png)
-
 [图片来源](https://www.youtube.com/watch?v=2btaQ9IMtwA&ab_channel=%E6%97%81%E7%99%BD%E5%90%9B)
 
 ## 🔨 原理
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afefb525-3d8e-4538-9070-5c03819f6389/unblock-cs-radius.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afefb525-3d8e-4538-9070-5c03819f6389/unblock-cs-radius.png)
 
 与我们之前介绍的 Uniswap 等 DEX 不同，CowSwap 不采用 AMM（Auto Market Maker）。基于 GPV2 的 CowSwap 更像是采用 Orderbook 的路线。
 
@@ -43,3 +39,7 @@ Solver 负责在链下寻找最佳的结算方式。因为 GPV2 担心 Solver �
 [GPV2 road to decentralization](https://forum.gnosis.io/t/gpv2-road-to-decentralization/1245)
 
 [Introducing Gnosis Protocol V2 and Balancer-Gnosis-Protocol](https://blog.gnosis.pm/introducing-gnosis-protocol-v2-and-balancer-gnosis-protocol-f693b2938ae4)
+
+import Coin from '../src/components/coin'
+
+<Coin />
